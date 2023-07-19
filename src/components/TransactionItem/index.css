@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.table-row {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.ts-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.delete-container {
+  width: 10%;
+  display: flex;
+}
+
+.del-button {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.del-img {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  outline: none;
+  border: none;
+}
